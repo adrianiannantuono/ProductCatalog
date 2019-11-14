@@ -13,7 +13,7 @@ public class ProductTest {
     @Test
     public void checkProductId() {
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-        assertEquals("Check the id of the product", 1,  aProduct.getId());
+        assertEquals("Check the id of the product", 1,  String.valueOf(aProduct.getId()));
     }
 
     @Test
